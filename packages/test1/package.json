@@ -28,13 +28,14 @@
     "react": "*"
   },
   "peerDependencies": {
-    "@tarojs/plugin-platform-weapp": "*",
     "@fruits-chain/icons-taro": "*",
     "@nutui/nutui-react-taro": "*",
     "@tarojs/components": "*",
     "@tarojs/taro": "*",
+    "@tarojs/plugin-platform-weapp": "*",
     "ahooks": "*",
     "lodash": "*",
+    "@tarojs/runtime": "*",
     "react": "*"
   }
 }
