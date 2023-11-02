@@ -1,6 +1,7 @@
 import React from 'react'
-import { Form, View } from '@tarojs/components'
 import { Button } from '@nutui/nutui-react-taro'
+import { navigateTo } from '@tarojs/taro'
+import { Form, View } from '@tarojs/components'
 import './index.scss'
 
 function Index() {
@@ -9,10 +10,19 @@ function Index() {
       <View className="index">欢迎来到app2。</View>
       <View className="index">
         <Form>
-          <Button type="primary" className="btn">
-            NutUI React
-          </Button>
+          <View>本人姓名</View>
         </Form>
+        <Button
+          onClick={() =>
+            navigateTo({
+              url: '/pages/confirm/index',
+            })
+          }
+          type="primary"
+          className="btn"
+        >
+          NutUI React Button
+        </Button>
       </View>
     </View>
   )
