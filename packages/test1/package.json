@@ -1,0 +1,40 @@
+{
+  "name": "@monorepotest/test1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "测试多包依赖问题",
+  "templateInfo": {
+    "name": "react-NutUI",
+    "typescript": true,
+    "css": "sass"
+  },
+  "scripts": {},
+  "browserslist": [
+    "last 3 versions",
+    "Android >= 4.1",
+    "ios >= 8"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@fruits-chain/icons-taro": "*",
+    "@nutui/nutui-react-taro": "*",
+    "@tarojs/components": "*",
+    "@tarojs/taro": "*",
+    "@tarojs/plugin-platform-weapp": "*",
+    "ahooks": "*",
+    "lodash": "*",
+    "@tarojs/runtime": "*",
+    "react": "*"
+  },
+  "peerDependencies": {
+    "@tarojs/plugin-platform-weapp": "*",
+    "@fruits-chain/icons-taro": "*",
+    "@nutui/nutui-react-taro": "*",
+    "@tarojs/components": "*",
+    "@tarojs/taro": "*",
+    "ahooks": "*",
+    "lodash": "*",
+    "react": "*"
+  }
+}
